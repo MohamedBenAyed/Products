@@ -1,0 +1,12 @@
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.ViewModels\bin\Debug\net6.0\PRODUCT.ViewModels.deps.json
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.ViewModels\bin\Debug\net6.0\PRODUCT.ViewModels.dll
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.ViewModels\bin\Debug\net6.0\PRODUCT.ViewModels.pdb
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.ViewModels\obj\Debug\net6.0\PRODUCT.ViewModels.csproj.AssemblyReference.cache
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.ViewModels\obj\Debug\net6.0\PRODUCT.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.ViewModels\obj\Debug\net6.0\PRODUCT.ViewModels.AssemblyInfoInputs.cache
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.ViewModels\obj\Debug\net6.0\PRODUCT.ViewModels.AssemblyInfo.cs
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.ViewModels\obj\Debug\net6.0\PRODUCT.ViewModels.csproj.CoreCompileInputs.cache
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.ViewModels\obj\Debug\net6.0\PRODUCT.ViewModels.dll
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.ViewModels\obj\Debug\net6.0\refint\PRODUCT.ViewModels.dll
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.ViewModels\obj\Debug\net6.0\PRODUCT.ViewModels.pdb
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.ViewModels\obj\Debug\net6.0\ref\PRODUCT.ViewModels.dll

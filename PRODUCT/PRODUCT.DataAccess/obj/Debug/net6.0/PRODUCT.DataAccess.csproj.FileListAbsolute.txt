@@ -1,0 +1,17 @@
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\bin\Debug\net6.0\PRODUCT.DataAccess.deps.json
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\bin\Debug\net6.0\PRODUCT.DataAccess.dll
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\bin\Debug\net6.0\PRODUCT.DataAccess.pdb
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\bin\Debug\net6.0\PRODUCT.Context.dll
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\bin\Debug\net6.0\PRODUCT.Entities.dll
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\bin\Debug\net6.0\PRODUCT.Context.pdb
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\bin\Debug\net6.0\PRODUCT.Entities.pdb
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\obj\Debug\net6.0\PRODUCT.DataAccess.csproj.AssemblyReference.cache
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\obj\Debug\net6.0\PRODUCT.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\obj\Debug\net6.0\PRODUCT.DataAccess.AssemblyInfoInputs.cache
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\obj\Debug\net6.0\PRODUCT.DataAccess.AssemblyInfo.cs
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\obj\Debug\net6.0\PRODUCT.DataAccess.csproj.CoreCompileInputs.cache
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\obj\Debug\net6.0\PRODUCT.DataAccess.csproj.CopyComplete
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\obj\Debug\net6.0\PRODUCT.DataAccess.dll
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\obj\Debug\net6.0\refint\PRODUCT.DataAccess.dll
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\obj\Debug\net6.0\PRODUCT.DataAccess.pdb
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.DataAccess\obj\Debug\net6.0\ref\PRODUCT.DataAccess.dll

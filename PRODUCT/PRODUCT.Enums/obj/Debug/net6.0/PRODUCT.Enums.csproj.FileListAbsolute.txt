@@ -1,0 +1,12 @@
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.Enums\bin\Debug\net6.0\PRODUCT.Enums.deps.json
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.Enums\bin\Debug\net6.0\PRODUCT.Enums.dll
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.Enums\bin\Debug\net6.0\PRODUCT.Enums.pdb
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.Enums\obj\Debug\net6.0\PRODUCT.Enums.csproj.AssemblyReference.cache
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.Enums\obj\Debug\net6.0\PRODUCT.Enums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.Enums\obj\Debug\net6.0\PRODUCT.Enums.AssemblyInfoInputs.cache
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.Enums\obj\Debug\net6.0\PRODUCT.Enums.AssemblyInfo.cs
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.Enums\obj\Debug\net6.0\PRODUCT.Enums.csproj.CoreCompileInputs.cache
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.Enums\obj\Debug\net6.0\PRODUCT.Enums.dll
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.Enums\obj\Debug\net6.0\refint\PRODUCT.Enums.dll
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.Enums\obj\Debug\net6.0\PRODUCT.Enums.pdb
+C:\Mohamed\Workspace\Projets_Test_personnel\PRODUCT\PRODUCT.Enums\obj\Debug\net6.0\ref\PRODUCT.Enums.dll
