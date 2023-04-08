@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Reflection.Emit;
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
+using PRODUCT.Entities;
 
 namespace PRODUCT.Context
 {
@@ -21,19 +22,21 @@ namespace PRODUCT.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
-                //var connectionString = @"Data Source=DESKTOP-K63E791;Database=SiNSTTest;Trusted_Connection=True;MultipleActiveResultSets=true;Integrated Security=true;";
-                var connectionString = @"data source=41.226.29.98;initial catalog=SiNST;user id=se;password=se;multipleactiveresultsets=True;";
+                var connectionString = @"Data Source=localhost;Database=ProductDB;Integrated Security=true;TrustServerCertificate=True;";
 
-                optionsBuilder.UseSqlServer(connectionString, b => b.MigrationsAssembly("SiNst.Context"));
+                optionsBuilder.UseSqlServer(connectionString, b => b.MigrationsAssembly("PRODUCT.Context"));
             }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+            modelBuilder.Entity<Product>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+            });
         }
 
-        //public virtual DbSet<User> User { get; set; }
+        public virtual DbSet<Product> Product { get; set; }
         
     }
 }

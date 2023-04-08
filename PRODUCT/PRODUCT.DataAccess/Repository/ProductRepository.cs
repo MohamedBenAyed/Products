@@ -1,4 +1,5 @@
 ﻿using PRODUCT.Context;
+using PRODUCT.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace PRODUCT.DataAccess.Repository
 {
-    public class AbsenceRepository //: GenericRepository<Absence>
+    public class ProductRepository : GenericRepository<Product>
     {
-        public AbsenceRepository(ProductDBContext context) //: base(context)
+        public ProductRepository(ProductDBContext context) : base(context)
         {
         }
     }
