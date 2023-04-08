@@ -361,3 +361,22 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/PRODUCT/PRODUCT.API/obj
+/PRODUCT/PRODUCT.API/bin
+/PRODUCT/PRODUCT.BusinessLayer/bin
+/PRODUCT/PRODUCT.BusinessLayer/obj
+/PRODUCT/PRODUCT.Context/obj
+/PRODUCT/PRODUCT.Context/bin
+/PRODUCT/PRODUCT.DataAccess/bin
+/PRODUCT/PRODUCT.DataAccess/obj
+/PRODUCT/PRODUCT.Entities/bin
+/PRODUCT/PRODUCT.Entities/obj
+/PRODUCT/PRODUCT.Enums/bin
+/PRODUCT/PRODUCT.Enums/obj
+/PRODUCT/PRODUCT.Logs/bin
+/PRODUCT/PRODUCT.Logs/obj
+/PRODUCT/PRODUCT.Services/bin
+/PRODUCT/PRODUCT.Services/obj
+/PRODUCT/PRODUCT.ViewModels/bin
+/PRODUCT/PRODUCT.ViewModels/obj
+/PRODUCT/.vs
