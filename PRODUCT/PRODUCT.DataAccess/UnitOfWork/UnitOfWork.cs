@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using PRODUCT.Entities;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -17,12 +18,12 @@ namespace PRODUCT.DataAccess.UnitOfWork
 
         public UnitOfWork(
             
-            //IRepository<Profil> profilRepo
+            IRepository<Product> productRepo
             )
         {
             _repositories = _repositories ?? new Dictionary<Type, IRepository>();
 
-            //_repositories.Add(typeof(User), userRepo);
+            _repositories.Add(typeof(Product), productRepo);
         }
 
 

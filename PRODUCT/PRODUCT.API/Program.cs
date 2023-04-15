@@ -10,6 +10,8 @@ using Newtonsoft.Json.Serialization;
 using Newtonsoft.Json;
 using Microsoft.AspNetCore.Diagnostics;
 using System.Net;
+using PRODUCT.Services.Interfaces;
+using PRODUCT.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -50,9 +52,9 @@ builder.Services.AddDbContext<ProductDBContext>(options =>
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<ProductDBContext>();
 
-// Repository
+// Service
 
-//builder.Services.AddScoped<IProcuredCapacityService, ProcuredCapacityService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 // BLL
 builder.Services.AddScoped<IGenericBLL<Product>, GenericBLL<Product>>();
@@ -64,7 +66,7 @@ builder.Services.AddScoped<IRepository<Product>, ProductRepository>();
 builder.Services.AddCors();
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Geodis", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "PRODUCT", Version = "v1" });
 
 });
 

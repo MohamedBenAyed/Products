@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PRODUCT.BusinessLayer\PRODUCT.BusinessLayer.csproj" />
+    <ProjectReference Include="..\PRODUCT.Entities\PRODUCT.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
