@@ -10,6 +10,10 @@ using PRODUCT.Context;
 
 namespace PRODUCT.DataAccess
 {
+    /// <summary>
+    /// Generic product
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public abstract class GenericRepository<T> : IRepository<T> where T : class
     {
         private readonly ProductDBContext _context;

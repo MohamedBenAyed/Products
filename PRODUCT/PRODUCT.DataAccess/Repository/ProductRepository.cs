@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace PRODUCT.DataAccess.Repository
 {
+    /// <summary>
+    /// Repository Product
+    /// </summary>
     public class ProductRepository : GenericRepository<Product>
     {
         public ProductRepository(ProductDBContext context) : base(context)

@@ -55,6 +55,7 @@ builder.Services.AddScoped<ProductDBContext>();
 // Service
 
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IQRCodeService, QRCodeService>();
 
 // BLL
 builder.Services.AddScoped<IGenericBLL<Product>, GenericBLL<Product>>();
@@ -123,7 +124,7 @@ app.UseExceptionHandler(
   builder =>
   {
       builder.Run(
-        async context =>
+        async context  =>
         {
             context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
             context.Response.Headers.Add("Access-Control-Allow-Origin", "*");
