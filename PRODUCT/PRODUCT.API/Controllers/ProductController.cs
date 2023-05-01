@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PRODUCT.Entities;
 using PRODUCT.Services.Interfaces;
 using System.Text.Json;
 
@@ -74,12 +75,78 @@ namespace PRODUCT.API.Controllers
         /// <returns></returns>
         [HttpGet]
         [Route("GetQRCodeProductById/{id}")]
+        //[ProducesResponseType(StatusCodes.Status200OK)]
         public IActionResult GetQRCodeProductById(int id)
         {
             var product = _productService.GetProductById(id);
             var jsonString = JsonSerializer.Serialize(product);
             return new OkObjectResult(_qrCodeService.CreateQRCode(jsonString));
         }
+
+        /// <summary>
+        /// AddNewProduct
+        /// </summary>
+        /// <param name="product"></param>
+        /// <returns></returns>
+        [HttpPost]
+        [Route("AddNewProduct")]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        public IActionResult AddNewProduct([FromBody] Product product)
+        {
+            Product newproduct = _productService.AddNewProduct(product);
+            if (newproduct != null)
+            {
+                return new OkObjectResult(newproduct);
+            }
+            else
+            {
+                return NotFound("Product not created.");
+            }
+        }
+
+        /// <summary>
+        /// Update Product
+        /// </summary>
+        /// <param name="product"></param>
+        /// <returns></returns>
+        [HttpPut]
+        [Route("UpdateProduct")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        public IActionResult UpdateProduct([FromBody] Product product)
+        {
+            bool isUpdated = _productService.UpdateProductById(product);
+            if (isUpdated)
+            {
+                return NoContent();
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
+
+        /// <summary>
+        /// Delete Product
+        /// </summary>
+        /// <param name="product"></param>
+        /// <returns></returns>
+        [HttpDelete]
+        [Route("DeleteProduct/{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        public IActionResult DeleteProduct(int id)
+        {
+            bool isDeleted = _productService.DeleteProductById(id);
+            if (isDeleted)
+            {
+                return NoContent();
+            }
+            else
+            {
+                return NotFound();
+            }
+        }
+
+
         #endregion
 
     }

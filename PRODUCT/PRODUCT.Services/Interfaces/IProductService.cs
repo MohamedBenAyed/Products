@@ -24,5 +24,24 @@ namespace PRODUCT.Services.Interfaces
         /// <param name="id"></param>
         /// <returns></returns>
         Product GetProductById(int id);
+
+        /// <summary>
+        /// Add new product
+        /// </summary>
+        /// <param name="newProduct"></param>
+        /// <returns></returns>
+        Product AddNewProduct(Product newProduct);
+
+        /// <summary>
+        /// Update Product By Id
+        /// </summary>
+        /// <param name="product"></param>
+        bool UpdateProductById(Product product);
+
+        /// <summary>
+        /// Delete Product By Id
+        /// </summary>
+        /// <param name="id"></param>
+        bool DeleteProductById(int id);
     }
 }
