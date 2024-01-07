@@ -15,6 +15,11 @@ using PRODUCT.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Configuration.AddJsonFile("appsettings.mbenayed.json")
+                            .Build();
+
+Console.WriteLine(builder.Configuration.GetValue<string>("hello"));
+
 // Add services to the container.
 
 builder.Services.AddControllers();
